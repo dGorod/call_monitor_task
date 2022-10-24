@@ -2,6 +2,14 @@
 [Dmytro Gorodnytskyi](https://www.linkedin.com/in/dgorod/)
 September 2022
 
+## Description
+Test exercise app with the following functionality:
+- Shows the call log
+- Able to run an HTTP server in the background that proives the following API
+  - `/` : server status
+  - `/status` : device call status
+  - `/log` : call log
+
 ## Architecture
 - App built using Clean Architecture pattern with MVVM (Android ViewModel).
 - Kotlin Coroutines used for asynchronous work. And LiveData for observing updates.
